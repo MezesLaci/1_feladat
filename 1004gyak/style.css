@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze:ital,wght@0,300;0,400;0,500;0,700;1,700&family=Roboto:ital,wght@0,400;0,500;1,700&display=swap');
+/*
+Anton - header
+grenze - minden más
+*/
+.header-box{
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+.header-box img{
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 0 0 5px 5px;
+
+}
+.header-title{
+    position: absolute;
+    margin: 0 auto;
+        top: 50%;
+        left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 26px;
+    text-shadow: 1px 1px 3px black;
+    font-family: roboto;
+    letter-spacing: 2px;
+}
+h2{
+    font-family: Roboto;
+    letter-spacing: 3px;
+    margin-left: 30px;
+    color: rgb(28, 119, 5);
+   }
+ h3{
+    font-family: Roboto;
+    letter-spacing: 2px;
+    text-align: center;
+    color: rgb(28, 119, 5);
+   }
+  
+.Karam-box{
+    background-color: #8abe6dee;
+    margin:10px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    display: inline-block;
+}
+.karam-felso p{
+    text-align: justify;
+    margin: 8px;
+}
+.karam-also{
+    width: 100%;
+    display: flex;
+}
+.karam-item{
+    width: 30%;
+    float: left;
+    padding: 8px;
+}
+.karam-item img{
+    width:100%;
+    max-height: 130px;
+    object-fit: cover;
+    border-radius: 3px;
+}
+.karam-item p{
+    text-align: center;
+}
+.karam-item h4{
+    padding-left: 8px;
+    font-size: 18px;
+}
+table img{
+    max-height: 200px;
+    object-fit: cover;
+}
+table h4{
+    font-size: 20px;
+    background-color: #8abe6dee;
+    margin-bottom: 2px;
+    padding-top: 3px;;
+
+}
+td p{
+    padding: 0 5px;
+    text-align: justify;
+}
+.my-table tr td{
+	height:45px;
+}
+.Orokbe{
+    background-color: #8abe6dee;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-top: 20px;
+    margin-left: 30px;
+}
+input[type='text']{
+    height: 45px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+}
